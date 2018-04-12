@@ -350,8 +350,7 @@ html {
   grid-auto-rows: min-content; }
   @media (max-device-width: 900px), (max-width: 900px) {
     .grid {
-      display: block;
-      font-size: 1.5rem; } }
+      display: block; } }
   .grid .invitation {
     grid-column: 1; }
   .grid .directions {
@@ -433,7 +432,11 @@ html {
     color: #617189; }
 
 .signup {
-  margin: 0.5rem; }
+  margin: 5rem 0; }
   .signup label {
     margin-bottom: 0.5rem;
     display: block; }
+  .signup input[type="email"] {
+    min-width: 15rem; }
+  .signup input[type="submit"] {
+    margin-top: 0.5rem; }
