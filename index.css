@@ -381,7 +381,7 @@ html {
   .directions h3 {
     margin: 0.125rem 0 1rem 0;
     color: #617189;
-    font-weight: 900;
+    font-weight: 700;
     font-size: 18pt;
     font-family: "museo-slab"; }
   .directions h4 {
@@ -427,9 +427,13 @@ html {
   .invitation p {
     font-size: 14pt;
     margin: 0.5rem 0 0.5rem 0.5rem; }
-  .invitation img {
-    height: 100%;
-    max-width: 800px; }
-    @media (max-device-width: 900px), (max-width: 900px) {
-      .invitation img {
-        width: 100%; } }
+  .invitation .gift-icon {
+    height: 1rem;
+    margin-right: 0.5rem;
+    color: #617189; }
+
+.signup {
+  margin: 0.5rem; }
+  .signup label {
+    margin-bottom: 0.5rem;
+    display: block; }
