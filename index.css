@@ -336,6 +336,9 @@ html {
   font-family: "Heiti SC";
   padding-bottom: 3rem; }
 
+p {
+  font-size: 14pt; }
+
 #main {
   background-image: url(c5d62087f95e16b940c521f7f53f33b2.png);
   background-repeat: repeat-x;
@@ -377,6 +380,9 @@ html {
       margin-top: 2rem;
       max-width: 100%;
       margin-left: 0.5rem; } }
+  @media (max-device-width: 900px), (max-width: 900px) {
+    .directions {
+      margin-left: 0; } }
   .directions h3 {
     margin: 0.125rem 0 1rem 0;
     color: #617189;
@@ -410,6 +416,10 @@ html {
         margin: 0;
         display: block;
         margin-bottom: 2rem; } }
+    @media (max-device-width: 900px), (max-width: 900px) {
+      .directions > div {
+        margin-left: 0;
+        padding-left: 0; } }
   .directions-content-address {
     height: 6rem;
     line-height: 125%; }
@@ -419,13 +429,18 @@ html {
 .invitation {
   text-align: left;
   display: flex;
+  flex: 1;
   flex-direction: column;
   color: #617189; }
   .invitation-content {
     margin: 3rem 0 0; }
+  .invitation-logo > img {
+    width: 100%;
+    max-width: 30rem; }
   .invitation p {
-    font-size: 14pt;
-    margin: 0.5rem 0 0.5rem 0.5rem; }
+    margin: 0.5rem 0 0.5rem 0.5rem;
+    font-size: 1.25rem;
+    line-height: 125%; }
   .invitation .gift-icon {
     height: 1rem;
     margin-right: 0.5rem;
@@ -437,6 +452,22 @@ html {
     margin-bottom: 0.5rem;
     display: block; }
   .signup input[type="email"] {
-    min-width: 15rem; }
+    min-width: 15rem;
+    border: 1px solid #617189; }
+    @media (max-device-width: 900px) {
+      .signup input[type="email"] {
+        width: 100%; } }
   .signup input[type="submit"] {
-    margin-top: 0.5rem; }
+    margin-top: 0.5rem;
+    background-color: #617189;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-width: 0; }
+
+a {
+  color: #617189; }
+
+@media (max-device-width: 900px) {
+  * {
+    text-size-adjust: 225%;
+    line-height: 225%; } }
