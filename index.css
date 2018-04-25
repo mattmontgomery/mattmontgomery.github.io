@@ -857,10 +857,6 @@ html {
     padding: 0.5rem;
     color: black;
     min-width: 15rem; }
-    .directions > div:first-of-type {
-      margin-left: 0; }
-    .directions > div:last-of-type {
-      margin-right: 0; }
     @media (max-device-width: 1350px), (max-width: 1350px) {
       .directions > div {
         margin: 0;
