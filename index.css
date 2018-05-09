@@ -867,7 +867,6 @@ html {
         margin-left: 0;
         padding-left: 0; } }
   .directions-content-address {
-    height: 6rem;
     line-height: 125%;
     margin-bottom: 1rem; }
     @media (max-device-width: 900px), (max-width: 900px) {
